@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_discovery">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.bottomnavigationactivity.ui.map.MapFragment"
+        android:label="@string/title_Map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.bottomnavigationactivity.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="com.example.bottomnavigationactivity.ui.orders.OrdersFragment"
+        android:label="@string/title_Orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/navigation_discovery"
+        android:name="com.example.bottomnavigationactivity.ui.discovery.DiscoveryFragment"
+        android:label="@string/title_Discovery"
+        tools:layout="@layout/fragment_discovery" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.bottomnavigationactivity.ui.profile.ProfileFragment"
+        android:label="fragment_Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

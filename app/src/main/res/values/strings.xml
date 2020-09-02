@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BottomNavigationActivity</string>
+    <string name="title_Orders">Orders</string>
+    <string name="title_Location">Location</string>
+    <string name="title_favorite">favorite</string>
+    <string name="title_Discovery">Discovery</string>
+    <string name="title_Map">Map</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+</resources>
